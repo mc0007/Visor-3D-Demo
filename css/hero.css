@@ -1,0 +1,63 @@
+.contenedor-plan {
+    margin: auto;
+    padding: 20px;
+    margin-top: 5px;
+    background-color:  rgb(241, 245, 249) ;
+}
+
+.estado label {
+    margin-right: 10px;
+}
+.estado select {
+    width: 150px;
+    margin-right: 10px;
+    }
+
+.texto{
+    margin-bottom: 0;
+}
+/* .detalles p {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 5px; 
+} */
+.detalles {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px; /* Espacio entre los elementos */
+}
+.button-agregar:hover {
+    background-color: #8ebae8;
+}
+.button-agregar {
+    background-color: #8debf4; 
+    color: black; 
+    border: none; 
+    padding: 10px; 
+    margin-right: 5px; 
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+.propuestas {
+    display: flex;
+    margin: 5px;
+    gap:5px
+}
+.propuestas button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px; 
+    padding-right:30px;
+    /* margin-right: 5px;  */
+    border-radius: 10%;
+}
+.propuestas button:hover{
+    background-color: #4295ed;  
+}
+.seleccionada{
+    background-color: #032d5b; 
+}
